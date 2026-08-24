@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository documents the design, implementation, and testing of a computer network for **Thuto Skills Training College (Klerksdorp)**, completed as an individual project for CMPG325 (Computer Networks).
+This repository documents the design, implementation and testing of a computer network for **Thuto Skills Training College (Klerksdorp)**.
 
 - **Client ID:** CLI-023
 - **Assigned addressing block:** 10.18.0.0/16
@@ -12,7 +12,7 @@ This repository documents the design, implementation, and testing of a computer 
 ## Repository Structure
 
 ```
-01-requirements.md        Client requirements, scope, and constraints
+01-requirements.md        Client requirements, scope and constraints
 02-design/
   ip-addressing-plan.md   VLAN and subnet addressing scheme
   physical-topology.png   Physical device and cabling diagram
@@ -38,4 +38,4 @@ The boardroom is equipped with both wired and wireless presentation access (per 
 
 ## Status
 
-This repository currently reflects **Milestone 1: Client Design Review** (client requirements, physical topology, logical topology, IP addressing plan). Implementation, testing, and reflection evidence will be added as the project progresses toward final submission.
+This repository currently reflects **Milestone 1: Client Design Review** (client requirements, physical topology, logical topology, IP addressing plan). Implementation, testing and reflection evidence will be added as the project progresses toward final submission.
