@@ -11,6 +11,7 @@ This repository documents the design, implementation, and testing of a computer 
 
 ## Repository Structure
 
+'''
 01-requirements.md        Client requirements, scope, and constraints
 02-design/
   ip-addressing-plan.md   VLAN and subnet addressing scheme
@@ -20,6 +21,7 @@ This repository documents the design, implementation, and testing of a computer 
 03-implementation/        Packet Tracer configuration evidence (Phase 2)
 04-testing/               Connectivity and feature verification evidence
 05-reflection/            Project reflection
+'''
 
 
 ## Design Summary
