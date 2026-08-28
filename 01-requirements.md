@@ -21,14 +21,10 @@ Packet Tracer.
 ## Design Constraint
 > Boardroom requires dedicated wireless and wired presentation ports.
 
-This means the boardroom must have both a wired network port (for a 
-laptop/PC presenting) and wireless access (for guests/staff presenting 
-from their own devices).
-
 ## Assigned Networking Challenge 
-**VLAN Trunking (802.1Q across switches)** — Advanced difficulty.
+**VLAN Trunking (802.1Q across switches)** 
 
-Must configure, verify, and demonstrate 802.1Q trunking between at least 
+Must configure, verify and demonstrate 802.1Q trunking between at least 
 two switches and be able to explain what was configured, why it's 
 appropriate and how it was verified.
 
@@ -36,8 +32,8 @@ appropriate and how it was verified.
 **CR9:** One off-site administrator requires secure remote management 
 access to network devices.
 
-This means at least one network device must be configurable/manageable 
-remotely, using a secure protocol (not plain-text access).
+This means at least one network device must be configurable
+remotely, using a secure protocol.
 
 ## Testing Requirements
 - Test relevant end-to-end connectivity.
@@ -49,6 +45,6 @@ remotely, using a secure protocol (not plain-text access).
 ## Note on Scope
 The brief does not specify exact departments, device counts or room 
 layout for Thuto Skills Training College. Per lecturer guidance, 
-reasonable assumptions were made where the brief is silent, these are 
+reasonable assumptions were made where the brief is silent and these are 
 documented separately in `assumptions.md` and not invented as if they were 
 official client requirements.
