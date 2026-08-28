@@ -1,6 +1,6 @@
 # Design Assumptions
 
-The project brief does not specify exact departments, device counts or room layout for Thuto Skills Training College. Per lecturer guidance, the following reasonable assumptions were made for a small training college:
+The project brief does not specify exact departments, device counts or room layout for Thuto Skills Training College.The following reasonable assumptions were made for a small training college.
 
 ## Assumed departments
 
@@ -14,7 +14,7 @@ The project brief does not specify exact departments, device counts or room layo
 - Admin: ~20 staff PCs
 - Labs: ~40 student PCs 
 - Boardroom: ~5 wired/wireless devices
-- Management: switches, router, AP
+- Management: switches, router and AP
 
 A /24 subnet per VLAN comfortably covers these counts with room to grow and keeps the addressing plan simple to explain and verify.
 
@@ -24,4 +24,4 @@ CR9 requires "secure remote management access" but doesn't specify a protocol. S
 
 ## Justification for VLAN trunking design
 
-Two switches were used specifically to give a genuine demonstrable use case for 802.1Q trunking between switches, as required by the assigned networking challenge.
+Two switches were used specifically to give a genuine demonstrable use case for 802.1Q trunking between switches as required by the assigned networking challenge.
