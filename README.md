@@ -80,7 +80,7 @@ On routed pings, the first packet can time out while devices learn each other's 
 
 - **Spanning-tree warning during trunk setup**: after the trunk was configured on CORE-SW first, ACCESS-SW reported an inconsistent port type on Fa0/2. Configuring the matching trunk on ACCESS-SW resolved it.
 - **SSH command typo**: the first SSH attempt used `ssh -1` (number one) instead of `ssh -l` (letter L) and returned "Invalid Command".
-- **Failed SSH logins**: several attempts returned "Login invalid" before a login succeeded, which came down to password entry at the prompt.
+- **Failed SSH logins**: several attempts returned "Login invalid" before a login succeeded, which came down to incorrect password entry at the prompt.
 - **Management address entry**: a mistyped `ip address` command on CORE-SW's VLAN 99 interface was rejected; re-entering it by hand fixed it.
 
 ## Status
