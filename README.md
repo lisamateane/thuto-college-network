@@ -20,7 +20,7 @@ This repository documents the design, implementation and testing of a computer n
       assumptions.md          Design assumptions made where the brief is silent
     03-implementation/        Milestone 2 Packet Tracer configuration evidence and .pkt file
     04-testing/               Milestone 2 connectivity and feature verification evidence
-    05-reflection/            Project reflection (to be added)
+    05-final-submission/      Final technical report and final Packet Tracer file
 
 ## Design Summary
 
@@ -47,7 +47,7 @@ The working Packet Tracer file is `03-implementation/Thuto_College_Network_M2.pk
 
 **Inter-VLAN routing**
 - Router-on-a-stick: HQ-ROUTER Gig0/0 is split into subinterfaces .10, .20, .30 and .99, each holding that VLAN's gateway address.
-- The router's second link to ACCESS-SW (Gig0/1) is cabled but left administratively shut down as a spare, so it does not create a loop with the trunk.
+- The router's second link to ACCESS-SW (Gig0/1) is cabled but left administratively shut down. It is a spare link from the Milestone 1 design and is not needed for router-on-a-stick.
 
 **Boardroom (design constraint)**
 - Wired presentation port: Board PC on ACCESS-SW Fa0/9.
@@ -83,6 +83,10 @@ On routed pings, the first packet can time out while devices learn each other's 
 - **Failed SSH logins**: several attempts returned "Login invalid" before a login succeeded, which came down to incorrect password entry at the prompt.
 - **Management address entry**: a mistyped `ip address` command on CORE-SW's VLAN 99 interface was rejected; re-entering it by hand fixed it.
 
+## Milestone 3 - Final Submission
+
+The final technical report document and the final Packet Tracer file are in `05-final-submission/`. The report includes the project reflection.
+
 ## Status
 
-This repository now reflects **Milestone 2: Client Implementation Review** (working Packet Tracer file, assigned feature implemented, testing evidence). The reflection will be added before final submission.
+This repository now reflects the **final submission** (Milestone 3): design, implementation, testing evidence, technical report and final Packet Tracer file.
