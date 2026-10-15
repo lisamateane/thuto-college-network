@@ -5,7 +5,6 @@ Student: LT Kobe (45532206)
 
 ## Contents
 - LT_KOBE_45532206_Technical_Report.pdf: complete technical report covering requirements, design, implementation, testing, troubleshooting and reflection
-- reflection.md: short reflection on the completed project
 - Thuto_College_Network_Final.pkt: final Packet Tracer file
 
 ## Summary
